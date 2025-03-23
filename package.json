@@ -1,0 +1,36 @@
+{
+  "name": "@arthur-lobo/dom-to-image",
+  "version": "1.0.0-beta",
+  "description": "Convert DOM elements to images",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurLobopro/dom-to-image.git"
+  },
+  "keywords": [],
+  "author": "Arthur Lobo <64273139+ArthurLobopro@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ArthurLobopro/dom-to-image/issues"
+  },
+  "homepage": "https://github.com/ArthurLobopro/dom-to-image#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dom-to-svg": "^0.12.2"
+  },
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
